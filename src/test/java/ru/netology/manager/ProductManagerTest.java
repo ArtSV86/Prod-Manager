@@ -26,12 +26,7 @@ class ProductManagerTest {
         manager.add(tShirt);
     }
 
-    @Test
-    public void shouldGetAll() {
-        Product[] expected = new Product[]{firstBook, secondBook, firstSmartphone, secondSmartphone};
-        Product[] actual = manager.getAll();
-        assertArrayEquals(expected, actual);
-    }
+
 
     @Test
     public void shouldFindSeveralByBookAuthor() {
